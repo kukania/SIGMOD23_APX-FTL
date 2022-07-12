@@ -23,7 +23,7 @@ And then, you can compile FTL by
 make driver -j
 ```
 The "driver" is the simple testing tool for implemented FTLs.\
-It consists of two phases, random write and random read.\
+It consists of two phases, random write and random read.
 
 You can test each FTLs by running driver.
 
@@ -31,9 +31,9 @@ You can test each FTLs by running driver.
 
 We use the Xilinx Virtex UltraScale FPGA VCU108 platform and customized NAND flash modules. \
 The customized NAND flash modules used in this paper are not publicly or commercially available. \
-Therefore, you may need your own NAND modules compatible with VCU108 and adequate modifications to the hardware backend to replicate this work.\
+Therefore, you may need your own NAND modules compatible with VCU108 and adequate modifications to the hardware backend to replicate this work.
 
 However, we implemented an SSD emulation version that regards DRAM area to storage.\
-The default setup is the SSD emulation version.\
+The default setup is the SSD emulation version.
 
 
