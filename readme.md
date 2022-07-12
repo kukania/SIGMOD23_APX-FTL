@@ -11,7 +11,7 @@ The specific codes for them are in ./algorithm/DFTL/caching/ directory.\
 \
 DFTL uses ./algorithm/DFTL/caching/coarse for its cache.\
 SFTL uses ./algorithm/DFTL/caching/sftl for its cache.\
-TPFTL uses ./algorithm/DFTL/caching/tpftl for its cache.\
+TPFTL uses ./algorithm/DFTL/caching/tpftl for its cache.
 
 # Compile
 We can change the target FTL to compile by editing the "TARGET_ALGO" in Makefile.\
@@ -22,10 +22,10 @@ And then, you can compile FTL by
 ```
 make driver -j
 ```
-The "driver" is the simple testing tool for implemented FTLs. \
+The "driver" is the simple testing tool for implemented FTLs.\
 It consists of two phases, random write and random read.\
 
-You can test each FTLs by running driver.\
+You can test each FTLs by running driver.
 
 # Reproduce
 
