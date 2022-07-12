@@ -44,7 +44,7 @@ static void layer_info_mapping(master_processor *mp, bool data_load, int argc, c
 
 #ifdef normal
 	mp->algo=&__normal;
-#elif defined(Page_ftl)
+#elif defined(Sector)
 	mp->algo=&page_ftl;
 #elif defined(DFTL)
 	mp->algo=&demand_ftl;
@@ -52,7 +52,7 @@ static void layer_info_mapping(master_processor *mp, bool data_load, int argc, c
 	mp->algo=&__demand;
 #elif defined(lsmftl)
 	mp->algo=&lsm_ftl;
-#elif defined(layeredLSM)
+#elif defined(APXFTL)
 	mp->algo=&layered_lsm;
 #elif defined(badblock)
 	mp->algo=&__badblock;

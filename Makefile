@@ -31,10 +31,10 @@ export COMMONFLAGS+=\
 			-Wno-unused-but-set-variable\
 			-DPARALLEL_MANAGER\
 			-DLSM_DEBUG\
-			-DTRACE_REPLAY\
 			-DPROGRESS\
 			-O3\
 			#-DWRITE_STOP_READ\
+#			-DTRACE_REPLAY\
 #			-DLSM_DEBUG\
 #			-DMETAONLY\
 			-DMAPPING_TIME_CHECK\
