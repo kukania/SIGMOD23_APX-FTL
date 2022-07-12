@@ -14,26 +14,26 @@ SFTL uses ./algorithm/DFTL/caching/sftl for its cache.\
 TPFTL uses ./algorithm/DFTL/caching/tpftl for its cache.\
 
 # Compile
-We can change the target FTL to compile by editing the "TARGET_ALGO" in Makefile.
-The default "TARGET_ALGO" is APXFTL which is our suggestion. 
-To make other FTLs, you change the TARGET_ALGO="Sector or DFTL or APXFTL".
-
+We can change the target FTL to compile by editing the "TARGET_ALGO" in Makefile.\
+The default "TARGET_ALGO" is APXFTL which is our suggestion. \
+To make other FTLs, you change the TARGET_ALGO="Sector or DFTL or APXFTL".\
+\
 And then, you can compile FTL by 
 ```
 make driver -j
 ```
-The "driver" is the simple testing tool for implemented FTLs. 
-It consists of two phases, random write and random read.
+The "driver" is the simple testing tool for implemented FTLs. \
+It consists of two phases, random write and random read.\
 
-You can test each FTLs by running driver.
+You can test each FTLs by running driver.\
 
 # Reproduce
 
-We use the Xilinx Virtex UltraScale FPGA VCU108 platform and customized NAND flash modules. 
-The customized NAND flash modules used in this paper are not publicly or commercially available. 
-Therefore, you may need your own NAND modules compatible with VCU108 and adequate modifications to the hardware backend to replicate this work.
+We use the Xilinx Virtex UltraScale FPGA VCU108 platform and customized NAND flash modules. \
+The customized NAND flash modules used in this paper are not publicly or commercially available. \
+Therefore, you may need your own NAND modules compatible with VCU108 and adequate modifications to the hardware backend to replicate this work.\
 
-However, we implemented an SSD emulation version that regards DRAM area to storage.
-The default setup is the SSD emulation version.
+However, we implemented an SSD emulation version that regards DRAM area to storage.\
+The default setup is the SSD emulation version.\
 
 
