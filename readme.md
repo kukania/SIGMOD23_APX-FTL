@@ -13,7 +13,7 @@ DFTL uses ./algorithm/DFTL/caching/coarse for its cache.\
 SFTL uses ./algorithm/DFTL/caching/sftl for its cache.\
 TPFTL uses ./algorithm/DFTL/caching/tpftl for its cache.
 
-Approximate indexing techinques of APX-FTL are implemented under the ./algorithms/APXFTL/translation_functions/
+Approximate indexing techinques of APX-FTL are implemented under the ./algorithms/APXFTL/translation_functions/ \
 Please refer to the bf_guard_mapping.*, plr_mapping.* and ./plr/*
 
 # Compile
